@@ -49,26 +49,6 @@ A modern, responsive, full-stack Django web application engineered to conduct au
 
 ---
 
-## 🔄 System Architecture & Workflow
-
-```mermaid
-flowchart TD
-    A([Candidate Visits Portal]) --> B[Registration Form /]
-    B -->|Submit Profile| C{Unique Check}
-    C -->|Duplicate Found| B
-    C -->|New Candidate| D[Candidate Created & Session Initialized]
-    D --> E[Instructions & Consent Screen /register-success/]
-    E -->|Start Assessment| F[Assessment Engine /assessment/]
-    F -->|Sample 5 Questions x 4 Categories| G[(Session Locked Question Set)]
-    G --> H[Interactive 20-Question Exam]
-    H -->|Validate & Submit| I[Grading Engine /submit/]
-    I -->|Record Answers & Compute Score| J[(Database: Result & Answers)]
-    J --> K[Scorecard & Results Page /result/]
-    K -->|Finish & Exit| L([Session Flushed /finish/])
-```
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer | Technology | Description |
