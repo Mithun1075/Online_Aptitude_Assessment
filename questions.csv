@@ -1,0 +1,101 @@
+category,question,option1,option2,option3,option4,correct_answer
+English,Choose the sentence that is grammatically correct for a formal business proposal.,Neither of the managers were available to approve the project budget yesterday.,Neither of the managers was available to approve the project budget yesterday.,Neither of the manager were available to approve the project budget yesterday.,Neither of the manager was available to approve the project budget yesterday.,B
+English,Select the antonym of the word 'METICULOUS' as used in quality assurance testing.,Thorough,Careless,Precise,Systematic,B
+English,"Identify the option that correctly completes the sentence: 'By the time the system deployment begins tomorrow, the database migration _____.'",will completed,has been completed,had completed,will have been completed,D
+English,"Identify the error in the following statement: 'The team lead, along with three senior developers, are attending the client workshop.'",are attending,along with three senior developers,The team lead,the client workshop,A
+English,Which of the following prepositional phrases correctly fits the sentence: 'The revised software specifications are now compliant _____ international security standards.',to,for,with,at,C
+English,Convert the following active voice sentence to passive voice: 'The infrastructure team is updating the server firewall.',The server firewall was updated by the infrastructure team.,The server firewall has been updated by the infrastructure team.,The server firewall is being updated by the infrastructure team.,The server firewall is updated by the infrastructure team.,C
+English,"Select the option that best replaces the underlined phrase to improve the sentence: 'If he would have started the testing earlier, the software bugs could have been patched before launch.'",If he had started,If he starts,If he has started,If he would start,A
+English,Choose the synonym for the word 'PRAGMATIC' in the context of project estimation.,Theoretical,Idealistic,Practical,Speculative,C
+English,Choose the correct sentence to convey past habit in a resume description.,I used to manage offshore team communications during daily standups.,I used to managing offshore team communications during daily standups.,I was use to manage offshore team communications during daily standups.,I am used to manage offshore team communications during daily standups.,A
+English,Identify the word that is correctly spelled among the following commonly used professional terms.,Accomodate,Acommodate,Acomodate,Accommodate,D
+English,Select the correct pair of words to complete the sentence: 'The client praised the team's _____ response and praised their _____ technical knowledge.',"profound, fast","promptly, profound","prompt, profound","prompt, profoundly",C
+English,Choose the sentence with correct punctuation for an official incident report.,"The server crashed at midnight; however, backup systems immediately took over.","The server crashed at midnight, however backup systems immediately took over.","The server crashed at midnight; however backup systems, immediately took over.","The server crashed at midnight however, backup systems immediately took over.",A
+English,Fill in the blank with the correct verb form: 'Hardly _____ the presentation started when the power supply was cut off.',did,has,had,was,C
+English,Select the option that best expresses the meaning of the idiom 'To cut corners' in a software development process.,To design round graphical interfaces,To optimize code performance using modern algorithms,To do something perfunctorily or poorly to save time or money,To break down a complex system into smaller microservices,C
+English,Identify the sentence that correctly uses the subjunctive mood for expressing a client recommendation.,The consultant recommended that the server is upgraded immediately.,The consultant recommended that the server was upgraded immediately.,The consultant recommended that the server be upgraded immediately.,The consultant recommended that the server will be upgraded immediately.,C
+English,"Which of the following options completes the sentence correctly? 'Not only _____ the code, but he also wrote comprehensive test suites.'",he refactored,did he refactor,did he refactored,he had refactored,B
+English,Choose the word closest in meaning to 'EQUIVOCAL' when evaluating project requirements.,Unmistakable,Ambiguous,Explicit,Decisive,B
+English,"Identify the correct form of conditional sentence: 'If the server load exceeds 90%, the automated autoscaling group _____ additional instances.'",triggered,would trigger,had triggered,will trigger,D
+English,Which sentence contains a dangling modifier that should be corrected in documentation?,"When the logs were analyzed, the team discovered the error.","Having analyzed the logs, the engineer discovered the root cause of the error.","After analyzing the logs, the team fixed the bug.","Having analyzed the logs, the root cause of the error was discovered by the engineer.",D
+English,"Choose the correct indirect speech form of: 'The lead asked, ""Have you resolved the API latency issue?""'",The lead asked if I have resolved the API latency issue.,The lead asked whether I had resolved the API latency issue.,The lead asked that had I resolved the API latency issue.,The lead asked if had I resolved the API latency issue.,B
+English,"Choose the word that correctly replaces the underlined phrase: 'The project manager was concise and expressed things in clear, few words.'",Verbose,Succinct,Redundant,Loquacious,B
+English,Which preposition correctly fills the blank? 'The new software update is superior _____ the older release in terms of processing speed.',to,from,than,over,A
+English,Select the correct sentence that avoids a double negative in team communication.,We don't need no further approval for this change.,We don't need any further approval for this change.,We can't get no response from the client server.,There isn't no space left on the disk drive.,B
+English,Identify the correct sentence structure for reporting project progress.,The team has been working on this module since three weeks.,The team is working on this module since three weeks.,The team worked on this module since three weeks.,The team has been working on this module for three weeks.,D
+English,Select the word that best completes the sentence: 'The director gave an _____ speech that motivated the engineering team to meet the tight deadline.',inspiritingly,inspiredly,inspiration,inspiring,D
+Maths,"A tech store offers a discount of 20% on a laptop marked at ₹50,000. If an additional cash discount of 5% is applied on the discounted price, what is the final selling price?","₹37,500","₹38,000","₹40,000","₹37,000",B
+Maths,"A developer completes a coding task in 12 days, while another developer can finish the same task in 24 days. How many days will they take to complete the task together?",6 days,9 days,10 days,8 days,D
+Maths,A train running at a speed of 72 km/h crosses a platform of length 200 meters in 25 seconds. What is the length of the train?,250 meters,300 meters,200 meters,350 meters,B
+Maths,"The ratio of monthly salaries of Developer A and Developer B is 4:5. If both receive an increment of ₹5,000, the new ratio becomes 5:6. What was the initial salary of Developer A?","₹15,000","₹30,000","₹25,000","₹20,000",D
+Maths,"The average age of a software development team of 10 members is 28 years. If the age of the team lead is included, the average age increases by 1 year. What is the age of the team lead?",38 years,39 years,40 years,41 years,B
+Maths,"A sum of ₹10,000 is invested at a compound interest rate of 10% per annum compounded annually for 2 years. What is the total interest earned?","₹2,100","₹2,000","₹2,200","₹2,500",A
+Maths,"A trader buys a server for ₹80,000 and sells it at a loss of 15%. What is the selling price of the server?","₹65,000","₹68,000","₹70,000","₹72,000",B
+Maths,What is the remainder when 3^21 is divided by 5?,1,2,3,4,C
+Maths,"Three pipes A, B, and C can fill a data reservoir in 10 hours, 12 hours, and 15 hours respectively. How long will it take to fill the reservoir if all three pipes work together?",3 hours,5 hours,4 hours,6 hours,C
+Maths,A car covers a distance of 300 km at a speed of 60 km/h and returns at a speed of 40 km/h. What is the average speed of the car for the entire journey?,52 km/h,50 km/h,48 km/h,45 km/h,C
+Maths,"If 12 programmers can write a code module in 18 days, how many programmers are required to complete the same module in 12 days?",15,18,16,20,B
+Maths,"The present population of a city is 1,20,000. If it increases by 10% in the first year and decreases by 10% in the second year, what will be the population after 2 years?","1,20,000","1,19,200","1,21,000","1,18,800",D
+Maths,In how many different ways can the letters of the word 'PYTHON' be arranged such that the vowels always come together?,120,360,240,720,C
+Maths,"Two numbers are in the ratio 3:4. If their Least Common Multiple (LCM) is 180, what is the sum of the two numbers?",90,135,120,105,D
+Maths,"A person earns a simple interest of ₹1,200 on a principal of ₹6,000 at a rate of 8% per annum. Find the time period of the investment.",2.5 years,2 years,3 years,4 years,A
+Maths,"By selling an item for ₹1,440, a shopkeeper gains a profit equal to 20%. What was the cost price of the item?","₹1,150","₹1,200","₹1,250","₹1,300",B
+Maths,"If 15% of a number is equal to 45, what is 40% of that same number?",120,100,150,180,A
+Maths,A container contains 80 liters of a mixture of milk and water in the ratio 7:1. How much water must be added to make the ratio 7:2?,8 liters,10 liters,12 liters,15 liters,B
+Maths,"Find the greatest common divisor (GCD) of 144, 180, and 192.",6,12,18,24,B
+Maths,"The average score of 5 test runs was 80. If the highest and lowest scores of 100 and 50 are removed, what is the new average score of the remaining 3 runs?",83.33,80,75,85,A
+Maths,A boat travels 24 km downstream in 3 hours and 24 km upstream in 6 hours. What is the speed of the current?,1 km/h,3 km/h,2 km/h,4 km/h,C
+Maths,"A father is currently 3 times as old as his son. After 12 years, the father's age will be twice the age of his son. What is the current age of the son?",10 years,14 years,12 years,16 years,C
+Maths,"If x + 1/x = 4, what is the value of x^2 + 1/x^2?",12,16,14,18,C
+Maths,"Find the compound interest on ₹8,000 for 1.5 years at 10% per annum compounding half-yearly.","₹1,261","₹1,220","₹1,280","₹1,300",A
+Maths,"In a competitive exam, 4 marks are awarded for each correct answer and 1 mark is deducted for each wrong answer. If a student attempts 50 questions and scores 120, how many questions were answered correctly?",30,34,32,36,B
+Python,"What will be the output of executing `print(type([1, 2, 3]))` in Python 3?",<class 'array'>,<class 'set'>,<class 'tuple'>,<class 'list'>,D
+Python,Which of the following built-in functions returns a new sorted list from the items in an iterable without modifying the original iterable?,list.sort(),sorted(),order(),list.order(),B
+Python,"What is the output of the following dictionary operation: `d = {'a': 1, 'b': 2}; print(d.get('c', 3))`?",3,None,KeyError,0,A
+Python,"In Python, which keyword is used to create a generator function that yields values one at a time?",return,generate,yield,produce,C
+Python,What will be the output of `print([x**2 for x in range(5) if x % 2 == 0])`?,"[0, 4, 16]","[1, 9]","[0, 2, 4]","[4, 16]",A
+Python,How do you create a virtual environment named 'myenv' using Python's standard library `venv` module?,virtualenv make myenv,python -m venv myenv,python create venv myenv,pip install venv myenv,B
+Python,What is the primary difference between a tuple and a list in Python?,"Tuples are mutable, while lists are immutable.","Tuples can store key-value pairs, while lists store elements.","Tuples are immutable, while lists are mutable.","Tuples cannot contain duplicate elements, while lists can.",C
+Python,"What will `print(''.join(['P', 'y', 't', 'h', 'o', 'n']))` evaluate to?","['P', 'y', 't', 'h', 'o', 'n']",P y t h o n,Python,TypeError,C
+Python,Which OOP principle is implemented in Python when a child class defines a method with the same name as a method in its parent class?,Method Overriding,Encapsulation,Method Overloading,Abstraction,A
+Python,"Which mode should be used with `open()` to open a file for writing without truncating it if it already exists, placing the pointer at the end?",w,r+,a,w+,C
+Python,What is the output of `bool([])` and `bool([0])` respectively in Python?,"False, True","False, False","True, True","True, False",A
+Python,Which clause in Python exception handling block is executed regardless of whether an exception occurred or not?,finally,except,else,try,A
+Python,"What will be the output of `list(set([1, 2, 2, 3, 4, 4, 4]))`?","[1, 2, 3, 4]","[1, 2, 2, 3, 4, 4, 4]","(1, 2, 3, 4)","{1, 2, 3, 4}",A
+Python,How is an anonymous inline function defined in Python?,def inline(x): return x,anonymous x: x,lambda x: x,func(x) => x,C
+Python,Which of the following special methods in Python is called when `str(obj)` or `print(obj)` is executed on an object?,__init__,__repr__,__call__,__str__,D
+Python,"What will be the output of `func(a, b=2, *args, **kwargs)` if `kwargs` contains key-value pairs?",kwargs is passed as a dictionary,kwargs is passed as a tuple,kwargs is passed as a list,kwargs causes a SyntaxError,A
+Python,What is the result of `10 // 3` and `10 % 3` in Python?,3.333 and 1,3.333 and 0,3 and 3,3 and 1,D
+Python,What decorator is used in Python to define a method inside a class that can be called without instantiating the class and takes the class as its first argument?,@staticmethod,@classmethod,@property,@abstractmethod,B
+Python,Which standard library module in Python is used to serialize and de-serialize Python object structures into byte streams?,json,csv,marshal,pickle,D
+Python,"What is the value of `x` after executing: `a = [1, 2, 3]; b = a; b.append(4); x = len(a)`?",4,3,AttributeError,UnboundLocalError,A
+Python,Which keyword is used inside a nested function to modify a variable in the outer non-global scope?,nonlocal,outer,global,parent,A
+Python,What does the `is` operator compare in Python?,Object values,Object variable names,Object data types,Object memory identities,D
+Python,"Which method is used on a dictionary to remove a specific key and return its value, or a default value if key is not found?",delete(),remove(),pop(),discard(),C
+Python,"What is the output of `list(map(lambda x: x * 2, [1, 2, 3]))`?","[1, 4, 9]","[2, 2, 2]","[1, 2, 3, 1, 2, 3]","[2, 4, 6]",D
+Python,What file must be present in a directory to mark it as a Python package in versions prior to Python 3.3?,__main__.py,__package__.py,__init__.py,setup.py,C
+Django,Which CLI command is used to generate new SQL migration files based on changes detected in your Django models?,python manage.py migrate,python manage.py showmigrations,python manage.py sqlmigrate,python manage.py makemigrations,D
+Django,"In Django MVT architecture, what does the 'V' stand for and what is its primary responsibility?",Visual; rendering HTML elements directly,View; processing requests and returning responses,Variable; holding application state data,Vector; routing URL endpoints to databases,B
+Django,Which template tag is essential in Django forms to protect against Cross-Site Request Forgery attacks?,{% auth_token %},{% security_token %},{% csrf_token %},{% protect_form %},C
+Django,"Which ORM method is used to retrieve a single object matching given lookup parameters, throwing an exception if multiple or no items exist?",Model.objects.filter(),Model.objects.fetch(),Model.objects.find(),Model.objects.get(),D
+Django,What is the primary role of Django Middleware during request processing?,To generate SQL schema migration files,To manage static CSS and JavaScript files,To compile HTML templates into static assets,To hook into Django's request/response processing globally,D
+Django,Which command collects static files from each of your application directories into a single location specified by STATIC_ROOT?,python manage.py compilestatic,python manage.py loadstatic,python manage.py collectstatic,python manage.py staticroot,C
+Django,How do you create an administrative superuser account in a Django project from the command line?,python manage.py createadmin,python manage.py createsuperuser,python manage.py newuser --admin,python manage.py adduser -s,B
+Django,Which setting in `settings.py` contains the list of installed Django applications for a project?,APPS_LIST,INSTALLED_APPS,PROJECT_APPS,REGISTERED_APPS,B
+Django,"In Django models, which field type should be used to establish a many-to-one relationship?",models.OneToOneField,models.PrimaryRelationshipField,models.ManyToManyField,models.ForeignKey,D
+Django,Which class-based view in Django is specifically designed to render a template and context without processing form submissions?,DetailView,ListView,FormView,TemplateView,D
+Django,"In Django URLs, which function is used to include other URLconf modules from individual apps?",include(),import_urls(),path_include(),route(),A
+Django,Which decorator is used to restrict access to a Function-Based View so that only authenticated users can access it?,@auth_required,@user_authenticated,@login_required,@permission_required,C
+Django,What Django feature allows decoupled applications to get notified when certain actions occur in another part of the project (e.g. post_save)?,Middleware,Events,Hooks,Signals,D
+Django,Which settings variable defines the directory where user-uploaded media files will be saved on the file system?,MEDIA_ROOT,MEDIA_URL,STATIC_ROOT,FILE_UPLOAD_PATH,A
+Django,What is the purpose of the `select_related()` method in Django QuerySets?,To perform asynchronous database queries,To prefetch many-to-many relationship objects into separate queries,To reduce database queries by performing SQL JOINs for single-valued relationships,To filter records based on selected column criteria,C
+Django,Which Django model attribute specifies human-readable plural names for administrative interface navigation?,display_name_plural,plural_name,admin_plural_title,verbose_name_plural,D
+Django,Which built-in Django form field class is best suited for email validation input?,forms.EmailField,forms.CharField,forms.TextField,forms.RegexField,A
+Django,What does executing `python manage.py migrate` do in a Django application?,Applies unapplied migration files to synchronize database schema,Creates new migration files in app directories,Deletes all database tables and resets primary keys,Exports database data into JSON fixture files,A
+Django,"In Django, how do you access session data inside a view function using the request object?",request.SESSION['key'],request.session['key'],request.cookies.session['key'],request.get_session('key'),B
+Django,Which mixin is used with Class-Based Views in Django to enforce user authentication?,AuthenticatedUserMixin,LoginRequiredMixin,UserAuthMixin,RequireLoginMixin,B
+Django,Which WSGI/ASGI application interface server is commonly used to serve Django applications in production environments?,Apache Tomcat,Gunicorn,Node.js,IIS Express,B
+Django,How do you render a template and return an HttpResponse in a function-based view in a shortcut manner?,"return template_render(request, 'template.html', context)","return make_response(request, 'template.html', context)","return display(request, 'template.html', context)","return render(request, 'template.html', context)",D
+Django,What command creates a new Django app folder structure within an existing project?,python manage.py startapp appname,python manage.py startproject appname,python manage.py createapp appname,python manage.py newapp appname,A
+Django,What is the purpose of `prefetch_related()` in Django ORM?,To execute separate queries to fetch many-to-many or reverse foreign key objects,To perform SQL JOIN operations for ForeignKey fields,To restrict the fields fetched from the database table,To create database indexes dynamically,A
+Django,"In Django template syntax, how do you output a variable value into HTML?",{% variable %},<%= variable %>,[[ variable ]],{{ variable }},D

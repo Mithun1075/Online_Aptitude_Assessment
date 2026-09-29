@@ -1,0 +1,193 @@
+{% extends "Test/base.html" %}
+{% load static %}
+
+{% block title %}Registration Successful | Online Aptitude Assessment{% endblock %}
+
+{% block content %}
+
+<section class="py-4">
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                <div class="card shadow border-0 rounded-4">
+
+                    <div class="card-body p-4">
+
+                        <!-- Success -->
+                        <div class="text-center mb-4">
+
+                            <div class="mb-3">
+                                <i class="bi bi-check-circle-fill text-success"
+                                   style="font-size:70px;"></i>
+                            </div>
+
+                            <h2 class="fw-bold text-success">
+                                Registration Successful
+                            </h2>
+
+                            <p class="text-muted mb-0">
+                                Thank you for registering. Please verify your details before starting the assessment.
+                            </p>
+
+                        </div>
+
+                        <!-- Candidate Details -->
+                        <div class="card border rounded-3 mb-4">
+
+                            <div class="card-header bg-primary text-white">
+                                <i class="bi bi-person-badge-fill me-2"></i>
+                                Candidate Details
+                            </div>
+
+                            <div class="card-body">
+
+                                <div class="row">
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>Name</strong><br>
+                                        {{ candidate.name }}
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>Email</strong><br>
+                                        {{ candidate.email }}
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>Mobile</strong><br>
+                                        {{ candidate.mobile }}
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>College</strong><br>
+                                        {{ candidate.college_name }}
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>Degree</strong><br>
+                                        {{ candidate.degree }}
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <strong>Year of Passing</strong><br>
+                                        {{ candidate.year_of_passing }}
+                                    </div>
+
+                                    <div class="col-12">
+                                        <strong>Position Applied For</strong><br>
+                                        {{ candidate.position }}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Instructions -->
+                        <div class="card border rounded-3 mb-4">
+
+                            <div class="card-header bg-light fw-bold">
+                                <i class="bi bi-info-circle-fill text-primary me-2"></i>
+                                Assessment Instructions
+                            </div>
+
+                            <div class="card-body">
+
+                                <ul class="mb-0">
+
+                                    <li>Total Questions : <strong>20</strong></li>
+
+                                    <li>Four Sections (5 Questions Each)</li>
+
+                                    <li>No Negative Marking</li>
+
+                                    <li>One Attempt Only</li>
+
+                                    <li>Choose only one answer for each question.</li>
+
+                                    <li>Click <strong>Start Assessment</strong> when you are ready.</li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Checkbox -->
+
+                        <div class="form-check mb-4">
+
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="confirmCheck">
+
+                            <label class="form-check-label" for="confirmCheck">
+
+                                I confirm that the above information is correct and I have read the assessment instructions.
+
+                            </label>
+
+                        </div>
+
+                        <!-- Button -->
+
+                        <div class="text-center">
+
+                            <a href="{% url 'assessment' %}"
+                               class="btn btn-primary btn-lg px-5 disabled"
+                               id="startBtn">
+
+                                <i class="bi bi-play-fill me-2"></i>
+
+                                Start Assessment
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+
+const checkbox = document.getElementById("confirmCheck");
+const startBtn = document.getElementById("startBtn");
+
+checkbox.addEventListener("change", function () {
+
+    if(this.checked){
+
+        startBtn.classList.remove("disabled");
+
+    }else{
+
+        startBtn.classList.add("disabled");
+
+    }
+
+});
+
+startBtn.addEventListener("click", function(e){
+
+    if(startBtn.classList.contains("disabled")){
+
+        e.preventDefault();
+
+    }
+
+});
+
+</script>
+
+{% endblock %}

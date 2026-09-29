@@ -1,0 +1,67 @@
+<div class="question-card">
+  <div class="question-top-row">
+    <div class="d-flex align-items-center gap-2">
+      <span class="question-number-badge"> {{ number }} </span>
+    </div>
+  </div>
+
+  <p class="question-text">{{ question.question }}</p>
+
+  <div class="option-list">
+    <label class="option-card">
+      <input
+        class="option-input"
+        type="radio"
+        name="question_{{ question.id }}"
+        value="A"
+        required
+      />
+
+      <span class="option-letter">A</span>
+
+      <span class="option-text"> {{ question.option1 }} </span>
+    </label>
+
+    <label class="option-card">
+      <input
+        class="option-input"
+        type="radio"
+        name="question_{{ question.id }}"
+        value="B"
+        required
+      />
+
+      <span class="option-letter">B</span>
+
+      <span class="option-text"> {{ question.option2 }} </span>
+    </label>
+
+    <label class="option-card">
+      <input
+        class="option-input"
+        type="radio"
+        name="question_{{ question.id }}"
+        value="C"
+        required
+      />
+
+      <span class="option-letter">C</span>
+
+      <span class="option-text"> {{ question.option3 }} </span>
+    </label>
+
+    <label class="option-card">
+      <input
+        class="option-input"
+        type="radio"
+        name="question_{{ question.id }}"
+        value="D"
+        required
+      />
+
+      <span class="option-letter">D</span>
+
+      <span class="option-text"> {{ question.option4 }} </span>
+    </label>
+  </div>
+</div>

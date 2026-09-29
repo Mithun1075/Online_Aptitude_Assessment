@@ -1,0 +1,713 @@
+/* ===========================================================
+   Online Aptitude Assessment — Custom Stylesheet
+   =========================================================== */
+
+/* -----------------------------------------------------------
+   1. Design Tokens
+----------------------------------------------------------- */
+:root {
+  --color-primary: #0d6efd;
+  --color-primary-dark: #0b5ed7;
+  --color-primary-soft: #e8f1ff;
+  --color-success: #198754;
+  --color-success-dark: #157347;
+  --color-danger: #dc3545;
+  --color-bg: #f5f7fa;
+  --color-card: #ffffff;
+  --color-text: #212529;
+  --color-muted: #6c757d;
+  --color-border: #e3e7ed;
+
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  --shadow-sm: 0 2px 8px rgba(13, 27, 62, 0.06);
+  --shadow-md: 0 8px 24px rgba(13, 27, 62, 0.08);
+  --shadow-lg: 0 16px 40px rgba(13, 27, 62, 0.12);
+
+  --transition-fast: all 0.2s ease;
+  --transition-med: all 0.35s ease;
+}
+
+/* -----------------------------------------------------------
+   2. Base
+----------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.app-main {
+  flex: 1 0 auto;
+}
+
+/* -----------------------------------------------------------
+   3. Navbar
+----------------------------------------------------------- */
+.app-navbar {
+  background-color: var(--color-card);
+  box-shadow: var(--shadow-sm);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar-brand-icon {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
+
+.navbar-brand-text {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--color-text);
+  letter-spacing: -0.01em;
+}
+
+/* -----------------------------------------------------------
+   4. Footer
+----------------------------------------------------------- */
+.app-footer {
+  flex-shrink: 0;
+  background-color: var(--color-card);
+  border-top: 1px solid var(--color-border);
+  padding: 1.25rem 0;
+  margin-top: 3rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* -----------------------------------------------------------
+   5. Generic Card
+----------------------------------------------------------- */
+.surface-card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* -----------------------------------------------------------
+   6. Home Page
+----------------------------------------------------------- */
+.home-section {
+  min-height: calc(100vh - 140px);
+  padding: 50px 0;
+}
+
+.center-page {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+}
+
+.home-card {
+  background-color: var(--color-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 2.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.home-title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+  color: var(--color-muted);
+  font-weight: 300;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+.home-icon-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 1.25rem;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.form-control {
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-border);
+  padding: 0.7rem 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  transition: var(--transition-fast);
+}
+
+.form-control:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+.btn-start {
+  background-color: var(--color-primary);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.btn-start:hover {
+  background-color: var(--color-primary-dark);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Instructions panel */
+.instructions-panel {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.instructions-title {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.instructions-title i {
+  color: var(--color-primary);
+}
+
+.instructions-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.instructions-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.4rem 0;
+  font-size: 0.92rem;
+  color: var(--color-text);
+}
+
+.instructions-list li i {
+  color: var(--color-success);
+  margin-top: 0.15rem;
+}
+
+.category-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.category-chip {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+}
+
+/* -----------------------------------------------------------
+   7. Assessment Page
+----------------------------------------------------------- */
+.assessment-header {
+  background-color: var(--color-card);
+  border-bottom: 1px solid var(--color-border);
+  padding: 2rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.assessment-header h1 {
+  font-size: 1.65rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.assessment-header p {
+  color: var(--color-muted);
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.question-card {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 1.75rem;
+  margin-bottom: 1.75rem;
+  transition: var(--transition-fast);
+}
+
+.question-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.question-card.question-unanswered {
+  border-color: var(--color-danger);
+}
+
+.question-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.question-number-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.category-badge {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+}
+
+.question-text {
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 1.35rem;
+  line-height: 1.5;
+}
+
+/* Option Cards */
+.option-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .option-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.option-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background-color: var(--color-bg);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.option-card:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  transform: translateY(-1px);
+}
+
+.option-card .option-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.option-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1.5px solid var(--color-border);
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  transition: var(--transition-fast);
+}
+
+.option-text {
+  font-weight: 400;
+  font-size: 0.96rem;
+  color: var(--color-text);
+  flex: 1;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* Selected State */
+.option-card.option-selected {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.12);
+}
+
+.option-card.option-selected .option-letter {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+.option-card.option-selected .option-text {
+  font-weight: 500;
+  color: var(--color-primary-dark);
+}
+
+/* Submit Section */
+.submit-section {
+  text-align: center;
+  padding: 1.5rem 0 3rem;
+}
+
+.btn-submit-assessment {
+  background-color: var(--color-success);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 0.95rem 3rem;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-fast);
+}
+
+.btn-submit-assessment:hover {
+  background-color: var(--color-success-dark);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.submit-helper-text {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-weight: 300;
+  margin-top: 0.75rem;
+}
+
+/* Sticky answered counter */
+.progress-counter {
+  position: sticky;
+  top: 78px;
+  z-index: 10;
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: 0.85rem 1.25rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.progress-counter i {
+  color: var(--color-primary);
+  margin-right: 0.4rem;
+}
+
+/* -----------------------------------------------------------
+   8. Result Page
+----------------------------------------------------------- */
+.result-section {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.result-card {
+  background-color: var(--color-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 3rem 2.5rem;
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.result-success-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background-color: rgba(25, 135, 84, 0.1);
+  color: var(--color-success);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin: 0 auto 1.5rem;
+  animation: pop-in 0.5s ease;
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.result-title {
+  font-weight: 700;
+  font-size: 1.85rem;
+  margin-bottom: 0.4rem;
+}
+
+.result-subtitle {
+  color: var(--color-muted);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.score-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.score-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-muted);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.score-value {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.score-value span {
+  font-size: 1.5rem;
+  color: var(--color-muted);
+  font-weight: 500;
+}
+
+.btn-finish {
+  background-color: var(--color-primary);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.02rem;
+  padding: 0.9rem 2.75rem;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-fast);
+}
+
+.category-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0d6efd;
+}
+
+.category-title {
+  margin: 50px 0 25px;
+  padding: 14px 20px;
+  background: linear-gradient(90deg, #0d6efd, #4b8cff);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(13, 110, 253, 0.2);
+}
+
+.category-title h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.btn-finish:hover {
+  background-color: var(--color-primary-dark);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* -----------------------------------------------------------
+   9. Responsive Adjustments
+----------------------------------------------------------- */
+@media (max-width: 767.98px) {
+  .home-card {
+    padding: 1.75rem;
+  }
+
+  .home-title {
+    font-size: 1.7rem;
+  }
+
+  .result-card {
+    padding: 2.25rem 1.5rem;
+  }
+
+  .question-card {
+    padding: 1.25rem;
+  }
+
+  .progress-counter {
+    top: 70px;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand-text {
+    font-size: 0.95rem;
+  }
+
+  .score-value {
+    font-size: 2.1rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .assessment-title {
+    font-size: 1.8rem;
+  }
+
+  .home-title {
+    font-size: 1.8rem;
+  }
+
+  .home-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .question-text,
+  .question-card h5 {
+    font-size: 0.85rem;
+  }
+
+  .option-card {
+    font-size: 0.9rem;
+  }
+
+  .option-marker {
+    font-size: 0.85rem;
+  }
+
+  .category-title h2 {
+    font-size: 1.25rem;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+
+  p,
+  li,
+  span {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 992px) {
+  .text-lg-start {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .option-card {
+    padding: 14px;
+  }
+
+  .option-text {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+

@@ -1,0 +1,66 @@
+{% extends "Test/base.html" %} {% load static %} {% block title %}Assessment |
+Online Aptitude Assessment{% endblock %} {% block content %}
+
+<div
+  class="assessment-header"
+  style="margin-bottom: 0rem; padding: 1.5rem 1.5rem; margin-top: 1rem"
+>
+  <div class="container">
+    <h1>Aptitude Assessment</h1>
+    <p>Answer all 20 questions and submit your assessment.</p>
+  </div>
+</div>
+
+<div class="container">
+  <form id="assessmentForm" method="POST" action="{% url 'submit' %}" novalidate>
+    {% csrf_token %}
+
+    <!-- ================= SET 1: English ================= -->
+    <div class="category-title">
+      <h2>Section 1 ( English )</h2>
+    </div>
+
+    {% for question in english_questions %}
+      {% include "Test/question_card.html" with question=question number=forloop.counter %}
+    {% endfor %}
+
+    <!-- ================= SET 2: Mathematics ================= -->
+    <div class="category-title mt-5">
+      <h2>Section 2 ( Mathematics )</h2>
+    </div>
+
+    {% for question in maths_questions %}
+      {% include "Test/question_card.html" with question=question number=forloop.counter|add:5 %}
+    {% endfor %}
+
+    <!-- ================= SET 3: Python ================= -->
+    <div class="category-title mt-5">
+      <h2>Section 3 ( Python )</h2>
+    </div>
+
+    {% for question in python_questions %}
+      {% include "Test/question_card.html" with question=question number=forloop.counter|add:10 %}
+    {% endfor %}
+
+    <!-- ================= SET 4: Django ================= -->
+    <div class="category-title mt-5">
+      <h2>Section 4 ( Django )</h2>
+    </div>
+
+    {% for question in django_questions %}
+      {% include "Test/question_card.html" with question=question number=forloop.counter|add:15 %}
+    {% endfor %}
+
+    <div class="text-center mt-5 mb-5">
+      <button type="submit" class="btn btn-success btn-lg px-5">
+        Submit Assessment
+      </button>
+    </div>
+  </form>
+</div>
+
+
+{% endblock %}
+
+
+
