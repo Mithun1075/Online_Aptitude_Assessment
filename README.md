@@ -60,7 +60,6 @@ Aptitude_Assessment/
 │       ├── register_success.html     # Confirmation screen & test instructions
 │       ├── assessment.html           # 20-question test form
 │       ├── question_card.html        # Reusable question component
-│       ├── processing.html           # Spinner screen for background scoring
 │       └── result.html               # Final score card
 ├── static/
 │   └── Test/                         # Static Assets

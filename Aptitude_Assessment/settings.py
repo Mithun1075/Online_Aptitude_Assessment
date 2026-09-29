@@ -26,7 +26,15 @@ SECRET_KEY = 'django-insecure-mz(#od9%+$5u3n^e%st&r=pumkpxc9bk^nq8o*h0^_2bxqn4j_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    ".ngrok-free.dev",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.ngrok-free.dev",
+]
 
 
 # Application definition
@@ -117,37 +125,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-# Static files (CSS, JavaScript, Images)
-
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-# CELERY_BROKER_URL = "redis://127.0.0.1:6379/0"
-
-# CELERY_RESULT_BACKEND = "redis://127.0.0.1:6379/0"
-
-# CELERY_ACCEPT_CONTENT = ["json"]
-
-# CELERY_TASK_SERIALIZER = "json"
-
-# CELERY_RESULT_SERIALIZER = "json"
-
-# CELERY_TIMEZONE = "Asia/Kolkata"
-
-ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-    ".ngrok-free.dev",
-]
-
-CSRF_TRUSTED_ORIGINS = [
-    "https://*.ngrok-free.dev",
-]
